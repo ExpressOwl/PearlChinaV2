@@ -6,6 +6,8 @@ module.exports = {
     "./menu.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "./node_modules/flowbite/**/*.js",
+    "./src/menu.html",
+    "./src/setdinner.html"
   ],
   theme: {
     extend: {},
