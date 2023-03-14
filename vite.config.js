@@ -7,8 +7,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        menu: resolve(__dirname, './src/menu'),
-        setdinner: resolve(__dirname, './src/setdinner'),
+        menu: resolve(__dirname, './menu'),
+        setdinner: resolve(__dirname, './setdinner'),
       },
     },
   },
