@@ -26,8 +26,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        menu: resolve(__dirname, './src/menu.html'),
-        setdinner: resolve(__dirname, './src/setdinner.html'),
+        menu: resolve(__dirname, 'menu.html'),
+        setdinner: resolve(__dirname, 'setdinner.html'),
       },
     },
   },
